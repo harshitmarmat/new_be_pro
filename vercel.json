@@ -2,13 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "Src": "*-js",
-      "use": "avercel/node"
+      "src": "*-js",
+      "use": "vercel/node"
     }
   ],
   "routes": [
     {
-      "Src": "/(.*)",
+      "src": "/(.*)",
       "dest": "/"
     }
   ]
